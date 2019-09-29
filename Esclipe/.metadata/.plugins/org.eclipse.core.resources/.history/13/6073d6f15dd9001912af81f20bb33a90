@@ -1,0 +1,5 @@
+package com.f7program.hellospringmvc.config;
+
+public class ApplicationContextConfig {
+
+}

@@ -1,0 +1,15 @@
+package com.tutorial;
+
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextStoppedEvent;
+
+public class CStopEvenHandler implements ApplicationListener<ContextStoppedEvent>{
+
+	@Override
+	public void onApplicationEvent(ContextStoppedEvent arg0) {
+		// TODO Auto-generated method stub
+		System.out.println("In here u can do everything with this function");
+		// it means before your hello World show off in your screen . u can call this function and it will be show before your Hello world 
+		System.out.println("Context Stopped Event Reveiced");
+	}
+}

@@ -1,0 +1,29 @@
+package com.tutorial;
+
+public class TextEditor {
+
+	private SpellCheck spellCheck;
+	private String name;
+	
+	public SpellCheck getSpellCheck() {
+		return spellCheck;
+	}
+	public void setSpellCheck(SpellCheck spellCheck) {
+		this.spellCheck = spellCheck;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void spellCheck() {
+		spellCheck.checkSpelling();
+
+	}
+	
+	
+	
+	
+}

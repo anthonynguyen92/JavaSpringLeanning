@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\Java\Esclipe\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3272786162.index
+\SpringBootThymeleaf\src\main\java
+D:\Java\Esclipe\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3490646688.index
+\HelloSpringMVC\src\main\resources
+D:\Java\Esclipe\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3382674178.index
+\HelloSpringMVC\src\main\java

@@ -1,0 +1,11 @@
+package com.tutorial;
+
+public class SpellCheck {
+	public SpellCheck() {
+		System.out.println("Inside SpellCheck Constructor");
+	}
+	
+	public void checkSpelling() {
+		System.out.println("inside checlSpelling");
+	}
+}
