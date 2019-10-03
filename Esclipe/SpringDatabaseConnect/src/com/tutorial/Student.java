@@ -1,0 +1,29 @@
+package com.tutorial;
+
+public class Student {
+
+	private Integer ID;
+	private Integer age;
+	private String name;
+	public Integer getID() {
+		return ID;
+	}
+	public void setID(Integer iD) {
+		ID = iD;
+	}
+	public Integer getAge() {
+		return age;
+	}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+}
