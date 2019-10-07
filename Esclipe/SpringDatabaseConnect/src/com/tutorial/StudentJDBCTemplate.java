@@ -22,7 +22,7 @@ public class StudentJDBCTemplate implements StudentDAO {
 		String queryString = "INSERT INTO student (name,age) VALUES (?,?)";
 		jdbcTemplate.update(queryString, name, age);
 		System.out.println("Created Record Name: " + name + " Age: " + age);
-		return;
+		//return;
 	}
 
 	public Student getStudent(Integer ID) {
