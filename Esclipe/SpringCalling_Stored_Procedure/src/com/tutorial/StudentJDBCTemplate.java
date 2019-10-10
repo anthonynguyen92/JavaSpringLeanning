@@ -21,7 +21,6 @@ public class StudentJDBCTemplate implements StudentDAO {
 	private SimpleJdbcCall jdbccall;
 	private JdbcTemplate jdbcTemplate;
 
-	@Override
 	public void setDataSource(DataSource dataSource) {
 		// TODO Auto-generated method stub
 		this.dataSource = dataSource;
